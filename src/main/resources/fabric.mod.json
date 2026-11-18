@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autosklep",
+  "version": "${version}",
+  "name": "AutoSklep",
+  "description": "Automatycznie sprzedaje miedz w /sklep, gdy ekwipunek sie zapelni.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autosklep.AutoSklepClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
